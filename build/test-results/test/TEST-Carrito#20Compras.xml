@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Carrito Compras" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-24T06:37:28" hostname="SQAT1MDEWIN34" time="34.943">
+  <properties/>
+  <testcase name="Agregar articulo a carrito de compras exitoso" classname="Carrito Compras" time="34.943"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 9207
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585031854.166][WARNING]: Timed out connecting to Chrome, retrying...
+mar. 24, 2020 1:37:36 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585031856.988][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585031857.089][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585031857.192][SEVERE]: Timed out receiving message from renderer: 0.100
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Agregar articulo a carrito de compras exitoso
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

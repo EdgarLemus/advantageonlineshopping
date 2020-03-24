@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Carrito Compras","Agregar articulo a carrito de compras exitoso","SUCCESS","2020-03-24T01:37:28.4004331-05:00[America/Bogota]","0.0","32.32"
+"Crear Usuario Nuevo","Crear usuario nuevo exitoso","SUCCESS","2020-03-24T01:38:09.5356211-05:00[America/Bogota]","0.0","40.55"
+"Crear Usuario Nuevo","Crear usuario existente","SUCCESS","2020-03-24T01:38:50.290627-05:00[America/Bogota]","0.0","38.48"
+"Loguear Usuario","Loguear usuario nuevo exitoso","SUCCESS","2020-03-24T01:39:31.9496756-05:00[America/Bogota]","0.0","21.21"
+"Loguear Usuario","Loguear usuario nuevo exitoso a traves de la pagina registro","ERROR","2020-03-24T01:39:53.3465841-05:00[America/Bogota]","0.0","12.54"
+"Loguear Usuario","Loguear usuario nuevo no exitoso","ERROR","2020-03-24T01:40:06.1160993-05:00[America/Bogota]","0.0","12.51"

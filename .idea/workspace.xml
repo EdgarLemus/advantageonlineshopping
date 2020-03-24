@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="235e02a0-5d06-40eb-be6f-747d7776c3f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SVE/src/main/java/co/com/bancolombia/certification/sve/tasks/preafiliarempresa/IngresarDatosDeUsuarioPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/ClickPopup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/EnterPopup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/Esperar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/LoguearUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/PrincipalUserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/variables/VariablesProductos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/LoginUsuarioRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginUsuarioStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/loginusuario.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVE/src/main/java/co/com/bancolombia/certification/sve/tasks/preafiliarempresa/IngresarLosDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVE/src/main/java/co/com/bancolombia/certification/sve/tasks/preafiliarempresa/IngresarLosDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVE/src/main/java/co/com/bancolombia/certification/sve/tasks/preafiliarempresa/Preafiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVE/src/main/java/co/com/bancolombia/certification/sve/tasks/preafiliarempresa/Preafiliar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVE/src/main/java/co/com/bancolombia/certification/sve/userinterface/afiliarempresa/UsuariosPrincipales.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVE/src/main/java/co/com/bancolombia/certification/sve/userinterface/afiliarempresa/UsuariosPrincipales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVE/src/test/java/co/com/bancolombia/certification/sve/runners/preafiliarempresa/PreafiliarEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVE/src/test/java/co/com/bancolombia/certification/sve/runners/preafiliarempresa/PreafiliarEmpresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVE/src/test/java/co/com/bancolombia/certification/sve/stepdefinitions/preafiliarempresa/PreafiliarEmpresaStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SVE/src/test/java/co/com/bancolombia/certification/sve/stepdefinitions/preafiliarempresa/PreafiliarEmpresaStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SVE/src/test/resources/features/preafiliarempresa/preafiliar_empresa.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../SVE/src/test/resources/features/preafiliarempresa/preafiliar_empresa.feature" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZUCScfRtbU4KQlqEUSB60RVUc2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="interactions" />
+      <recent name="driver" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.LoginUsuarioRunner">
+    <configuration name="NumeroAleatorio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.NumeroAleatorio" />
+      <module name="advantageonlineshopping.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: carritocompras" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/carritocompras.feature" />
+      <option name="GLUE" value="stepdefinitions net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="advantageonlineshopping.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: carritocompras" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarritoComprasRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;runners.CarritoComprasRunner&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CrearUsuarioRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;runners.CrearUsuarioRunner&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginUsuarioRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;runners.LoginUsuarioRunner&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.LoginUsuarioRunner" />
+        <item itemvalue="Cucumber java.Feature: carritocompras" />
+        <item itemvalue="Gradle.CrearUsuarioRunner" />
+        <item itemvalue="Gradle.CarritoComprasRunner" />
+        <item itemvalue="Application.NumeroAleatorio" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="235e02a0-5d06-40eb-be6f-747d7776c3f4" name="Default Changelist" comment="" />
+      <created>1584884286449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584884286449</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

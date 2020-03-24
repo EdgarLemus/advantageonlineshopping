@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Crear Usuario Nuevo" skipped="0" tests="2" time="79.03" timestamp="2020-03-24 01:38:09"><testcase name="Crear usuario nuevo exitoso"/><testcase name="Crear usuario existente"/></testsuite>

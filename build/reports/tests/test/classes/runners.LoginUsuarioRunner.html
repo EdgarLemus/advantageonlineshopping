@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class runners.LoginUsuarioRunner</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class runners.LoginUsuarioRunner</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/runners.html">runners</a> &gt; LoginUsuarioRunner</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">0</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">-</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">-</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/feature/loginusuario.feature:21 ?[0m# Loguear usuario nuevo exitoso a traves de la pagina registro
+?[31msrc/test/resources/feature/loginusuario.feature:31 ?[0m# Loguear usuario nuevo no exitoso
+
+3 Scenarios (?[31m2 failed?[0m, ?[32m1 passed?[0m)
+9 Steps (?[31m2 failed?[0m, ?[36m2 skipped?[0m, ?[32m5 passed?[0m)
+0m46,877s
+
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a id=&quot;menuUserLink&quot; aria-label=&quot;UserMenu&quot; href=&quot;javascript:void(0)&quot; role=&quot;link&quot; class=&quot;img&quot; data-ng-click=&quot;login('loginMiniTitle')&quot; data-ng-mouseenter=&quot;miniTitleIn('loginMiniTitle')&quot; data-ng-mouseleave=&quot;miniTitleOut('loginMiniTitle')&quot;&gt;...&lt;/a&gt; is not clickable at point (1222, 34). Other element would receive the click: &lt;div class=&quot;loader&quot; style=&quot;display: block; opacity: 1;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAT1MDEWIN34', ip: '192.168.0.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Usuario\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53048}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1a90c7ed0fd4fe0350832eac621f2e33
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1231)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.CGLIB$performAs$0(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d$$FastClassByCGLIB$$eb009f51.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at tasks.LoguearUsuarioEnPagina.performAs(LoguearUsuarioEnPagina.java:27)
+	at tasks.LoguearUsuarioEnPagina$$EnhancerByCGLIB$$d2c0ffec.CGLIB$performAs$0(&lt;generated&gt;)
+	at tasks.LoguearUsuarioEnPagina$$EnhancerByCGLIB$$d2c0ffec$$FastClassByCGLIB$$a95d2107.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at tasks.LoguearUsuarioEnPagina$$EnhancerByCGLIB$$d2c0ffec.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at stepdefinitions.LoginUsuarioStepDefinitions.ingreseEnLaPaginaLogueandoseATravesDeLaPaginaDeRegistro(LoginUsuarioStepDefinitions.java:36)
+	at ?.ingrese en la pagina logueandose a traves de la pagina de registro(src/test/resources/feature/loginusuario.feature:15)
+
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a id=&quot;menuUserLink&quot; aria-label=&quot;UserMenu&quot; href=&quot;javascript:void(0)&quot; role=&quot;link&quot; class=&quot;img&quot; data-ng-click=&quot;login('loginMiniTitle')&quot; data-ng-mouseenter=&quot;miniTitleIn('loginMiniTitle')&quot; data-ng-mouseleave=&quot;miniTitleOut('loginMiniTitle')&quot;&gt;...&lt;/a&gt; is not clickable at point (1222, 34). Other element would receive the click: &lt;div class=&quot;loader&quot; style=&quot;display: block; opacity: 1;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAT1MDEWIN34', ip: '192.168.0.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Usuario\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e1654d0a9e900262326a4dee6f948d68
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1231)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.CGLIB$performAs$0(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d$$FastClassByCGLIB$$eb009f51.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at tasks.LoguearUsuario.performAs(LoguearUsuario.java:26)
+	at tasks.LoguearUsuario$$EnhancerByCGLIB$$6f639f07.CGLIB$performAs$0(&lt;generated&gt;)
+	at tasks.LoguearUsuario$$EnhancerByCGLIB$$6f639f07$$FastClassByCGLIB$$6b075f7e.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at tasks.LoguearUsuario$$EnhancerByCGLIB$$6f639f07.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at stepdefinitions.LoginUsuarioStepDefinitions.ingreseEnLaPaginaLogueandose(LoginUsuarioStepDefinitions.java:31)
+	at ?.ingrese en la pagina logueandose(src/test/resources/feature/loginusuario.feature:25)
+
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Loguear Usuario
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Loguear usuario nuevo exitoso
+-------------------------------------------------------------------(loguear-usuario;loguear-usuario-nuevo-exitoso)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Loguear usuario nuevo exitoso a traves de la pagina registro
+-------------------------------------------------------------------(loguear-usuario;loguear-usuario-nuevo-exitoso-a-traves-de-la-pagina-registro)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Loguear usuario nuevo no exitoso
+-------------------------------------------------------------------(loguear-usuario;loguear-usuario-nuevo-no-exitoso)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.5.1</a> at 24/03/2020, 1:40:20 a. m.</p>
+</div>
+</div>
+</body>
+</html>
